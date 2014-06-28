@@ -1,0 +1,40 @@
+#fb-pic
+==
+Returns facebook profile url from user name
+Usage:
+
+```JavaScript
+var pic = require("fb-pic");
+ 
+pic.fb('bhanu423',function(err, info){
+	if(err){
+		console.log(err);
+	} else{
+		console.log(info);
+	}
+})
+
+#Installation:
+npm install fb-pic
+
+
+#Test:
+
+pending
+
+#API
+ host: its the host of the profile pic
+
+ pathname: pathname on the server
+
+ href: full image path 
+
+ dpath: Array of pathname separated by '/'
+
+#Author:
+
+Bhanu Pratap Chaudhary
+
+#Version History
+
+0.0.1 - First release 
